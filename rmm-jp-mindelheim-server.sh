@@ -1,26 +1,5 @@
 #!/usr/bin/env bash
 
-if [ $EUID -ne 0 ]; then
-    echo "ERROR: Must be run as root"
-    exit 1
-fi
-
-HAS_SYSTEMD=$(ps --no-headers -o comm 1)
-if [ "${HAS_SYSTEMD}" != 'systemd' ]; then
-    echo "This install script only supports systemd"
-    echo "Please install systemd or manually create the service using your systems's service manager"
-    exit 1
-fi
-
-if [[ $DISPLAY ]]; then
-    echo "ERROR: Display detected. Installer only supports running headless, i.e from ssh."
-    echo "If you cannot ssh in then please run 'sudo systemctl isolate multi-user.target' to switch to a non-graphical user session and run the installer again."
-    echo "If you are already running headless, then you are probably running with X forwarding which is setting DISPLAY, if so then simply run"
-    echo "unset DISPLAY"
-    echo "to unset the variable and then try running the installer again"
-    exit 1
-fi
-
 DEBUG=0
 INSECURE=0
 NOMESH=0
