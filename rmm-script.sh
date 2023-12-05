@@ -29,7 +29,7 @@ agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.6.0&arch=amd64&
 meshDL='https://mesh.iamjp.de/meshagents?id=h8ku6NPqUgd@qMfPwZwWI$NzkqR6TZ8@OxodAU3WNR$gd7amBeJn0zg02FhW2Maq&installflags=2&meshinstall=6'
 
 apiURL='https://api.iamjp.de'
-token='19fa9f72c87514b2396b5dc09dd0bfd6ff60296dcc6fbe4269bc3a848440f1d3'
+token='899a9d18eb25ed9cefc1a8199b6a92dac1a4575414cf2edb6ccd0fca3217555d'
 clientID='1'
 siteID='1'
 agentType='server'
