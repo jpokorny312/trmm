@@ -1,0 +1,44 @@
+[
+    {
+      "key": "Mindelheim",
+      "latitude": 48.046159,
+      "longitude": 10.491525,
+      "name": "Mindelheim"
+    },
+    {
+        "key": "Leipzig",
+        "latitude": 51.340632,
+        "longitude": 12.374733,
+        "name": "Leipzig"
+    },
+    {
+        "key": "Neusäß",
+        "latitude": 48.392872,
+        "longitude": 10.835454,
+        "name": "Neusäß"
+    },
+    {
+        "key": "Königsbrunn",
+        "latitude": 48.267955,
+        "longitude": 10.888382,
+        "name": "Königsbrunn"
+    },
+    {
+        "key": "Diedorf",
+        "latitude": 48.354245,
+        "longitude": 10.78396,
+        "name": "Diedorf"
+    },
+    {
+        "key": "Augsburg-Hochfeld",
+        "latitude": 48.353174,
+        "longitude": 10.899341,
+        "name": "Augsburg-Hochfeld"
+    },
+    {
+        "key": "Augsburg-Hochfeld",
+        "latitude": 48.353174,
+        "longitude": 10.899341,
+        "name": "Augsburg-Hochfeld"
+    }
+]
