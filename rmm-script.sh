@@ -26,12 +26,12 @@ INSECURE=0
 NOMESH=0
 
 agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.6.0&arch=amd64&token=dac68d7b-efa6-4981-9125-166cc2767855&plat=linux&api=api.iamjp.de'
-meshDL='https://mesh.iamjp.de/meshagents?id=h8ku6NPqUgd@qMfPwZwWI$NzkqR6TZ8@OxodAU3WNR$gd7amBeJn0zg02FhW2Maq&installflags=2&meshinstall=6'
+meshDL='https://mesh.iamjp.de/meshagents?id=Clr9lsijUpSUvRwBF3PWwouPg6nJpXFDuh0HH@ZSWL9UTWrmh14u5YRsogDs7sj7&installflags=2&meshinstall=6'
 
 apiURL='https://api.iamjp.de'
-token='899a9d18eb25ed9cefc1a8199b6a92dac1a4575414cf2edb6ccd0fca3217555d'
-clientID='1'
-siteID='1'
+token='74ba98ad206f33141be0639b271767fc8bb3a7d296502bef25eecc211a768218'
+clientID='4'
+siteID='6'
 agentType='server'
 proxy=''
 
